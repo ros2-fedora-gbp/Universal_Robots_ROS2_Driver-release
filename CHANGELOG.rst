@@ -2,6 +2,22 @@
 Changelog for package ur_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.2 (2023-06-02)
+------------------
+* Fixed formatting (`#685 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/685>`_)
+  * Removed empty lines from python files
+  * Fixed typo in changelogs
+* Define default maximum accelerations for MoveIt (`#645 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/645>`_)
+* Contributors: Felix Exner (fexner), RobertWilbrandt
+
+2.3.1 (2023-03-16)
+------------------
+
+2.3.0 (2023-03-02)
+------------------
+* Fix capitalization of docstring
+* Contributors: Felix Exner
+
 2.2.4 (2022-10-07)
 ------------------
 * Fix selecting the right controller given fake_hw
